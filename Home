@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-image: url("bg.jpg");}
+
+<!--Menu Bar, Esto agregará un poco más de estilo y finura al 
+proyecto terminado, una mirada más profesional y También, un enorme gracias a mi amigo
+ Christopher Soriano de Bayamon por lanzarme esta idea-->
+	
+h1 { font-family: verdana; color: gray;} 
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+	
+	h1{
+	color: white;
+	} 
+</style>
+</head>
+<title>
+Adopt for Change
+</title>
+
+<body>
+<!--Llamando y seteando el Menu Bar-->
+	  <div class="topnav" id="myTopnav">
+  <a href="home.html">Hogar</a>
+  <a href="gallery.html">Galer&iacutea </a>
+  <a href="contact.html">Cont&aacutectanos </a>
+  <a href="about.html">Qu&eacute debes saber?</a>
+  <a href="a">Adopci&oacuten </a>
+  
+</div>
+	<div class="videoWrapper">
+  
+<!--Bienvenida-->
+	<h1><u>Un breve video acerca de c&oacutemo adoptar es una gran ayuda</u></h1>
+	</br>
+	
+<!--Intro al video/ Comentario-->
+	<h2>Petco, al igual que muchas 
+	otras tiendas de mascotas asi como 
+ Petsmart y hasta negocios locales tienen campa&ntildeas de adopci&oacuten. 
+ </br>Puede que tu pr&oacutexima aventura te espere en uno de 
+ estos lugares</h2>
+ <!--Video embedded de youtube-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ieHv-6UUftc"
+ frameborder="10" align="center-right" allowfullscreen></iframe><hr>
+ 
+ 
+</div>
+</br></br>
+
+<div> <!--Link a una app de telefono para pet owners (util, yo la uso)-->
+	<h2>En esta app podr&aacutes ver varias cosas relacionadas con mascotas.</br> Desde eventos de diversi&oacuten
+	 hasta campa&ntildeas de adopci&oacuten e inclusive te dir&aacute qu&eacute tiendas son
+	 "<i>pet friendly</i>".</h2>
+	<iframe align="right" width="600" height="350" src="http://petsandthecitypr.com/"></iframe>
+</div>
+<ul> <h3><u>Algunos eventos por medio de la app</u></h3>
+<h1>
+<li>Feria de Adopci&oacuten/Vacunaci&oacuten </li><br>
+<li>Pet-Cinema (movie night) en Bah&iacutea Urbana</li><br>
+<li>Pet Easter Event en <i>Mall of San Juan</i></h1>
+</ul>
+<div style="position: relative">
+            <p style="position: fixed; bottom: 0; width:100%; text-align: center">
+			<h4 align="bottom"><i>Para m&aacutes informaci&oacuten visite nuestras secciones de <a href="file:///C:/Users/Edwin/Desktop/PF/adoption">Adopci&oacuten </a> 
+			y <a href="file:///C:/Users/Edwin/Desktop/PF/gallery">Galer&iacutea </a>!</i></h4>
+            </p>
+        </div>
+
+</body>
+</html>

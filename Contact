@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+	body {background-image: url("bg.jpg");}
+
+<!--Menu Bar, Esto agregará un poco más de estilo y finura al 
+proyecto terminado, una mirada más profesional y También, un enorme gracias a mi amigo
+ Christopher Soriano de Bayamon por lanzarme esta idea-->
+	 h1 { font-family: verdana;}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a { 
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+<!-- Ok, ahora luego del menu bar, vamos a crear una galeria para esta pagina
+se usara para (obviamente) mostrar fotos, mil gracias a los tutoriales 
+de w3schools por ayudarme a aclarar dudas cuando me surgian!-->
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 300px;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	
+	table { background-color: gray;} 
+}
+
+h1 { color: white;
+} 
+
+</style>
+</head>
+<!-- Un poquito de JS para validar un form, esto no permitira que se 
+someta un formulario vacio y se lo notificara al usuario-->
+<script>
+
+function validateForm() {
+	var x = document.forms["myform"]["fname"].value;
+	var y = document.forms["myform"]["lname"].value;
+	var z = document.forms["myform"]["email"].value;
+	if (x=="" || y=="" || z=="") {
+	alert("Form must be filled out to completion!");
+	return false;
+	} 
+}
+	function submitForm() {
+	document.getElementById("myform").submit();
+	} 
+
+</script>
+
+
+<title>Cont&aacutectenos!</title>
+
+<body>
+	<!--Llamando y seteando el Menu Bar-->
+	 <div class="topnav" id="myTopnav">
+  <a href="file:///C:/Users/Edwin/Desktop/PF/Home">Hogar</a>
+  <a href="file:///C:/Users/Edwin/Desktop/PF/gallery">Galer&iacutea </a>
+  <a href="file:///C:/Users/Edwin/Desktop/PF/contact">Cont&aacutectanos </a>
+  <a href="file:///C:/Users/Edwin/Desktop/PF/about">Qu&eacute debes saber?</a>
+  <a href="file:///C:/Users/Edwin/Desktop/PF/adoption">Adopci&oacuten </a>
+  
+</div>
+  
+  <!--Area Intro de la pagina (bienvenida-->
+  <p><h1 align="center">Cont&aacutectenos!</br>
+  Br&iacutendenos su informacion, comentarios o preguntas y 
+  le escribiremos a la mayor brevedad!<hr></h1></p>
+  
+  <img src="buddies.jpg" align="right"
+  alt="buddies" height="400px" width="650px" border="8px">
+  
+  <!--Contact Form para comunicarse-->
+   <form name="myform" alt="myform" action="/action_page_post.php" 
+   onsubmit="return validateForm()" method="post">
+  <h1>First name:</h1><br>
+  <input type="text" name="fname" size="55"><br>
+  <h1>Last name:</h1><br>
+  <input type="text" name="lname" size="55"> <br>
+  <h1>E-mail:</h1><br>
+  <input type="text" name="email" size="55"><br>
+  <h2>Comentarios o Preguntas</h2>
+   <textarea name="message" rows="20" cols="60">Que desea decirnos?</textarea><br>
+  <input type="submit" onclick="validateForm" value="Submit Form">
+  
+</form> 
+
+</body>
+</html>

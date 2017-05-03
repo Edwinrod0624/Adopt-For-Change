@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {background-image: url("bg.jpg");}
+
+<!--Menu Bar, Esto agregará un poco más de estilo y finura al 
+proyecto terminado, una mirada más profesional y También, un enorme gracias a mi amigo
+ Christopher Soriano de Bayamon por lanzarme esta idea-->
+	
+h1 { font-family: verdana; } 
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a { 
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+<!-- Ok, ahora luego del menu bar, vamos a crear una galeria para esta pagina
+se usara para (obviamente) mostrar fotos, mil gracias a los tutoriales 
+de w3schools por ayudarme a aclarar dudas cuando me surgian!-->
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 300px;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+h1 { color: white;
+}
+
+h2 { color: navy;
+}
+
+</style>
+</head>
+<title>Galler&iacutea </title>
+<body>
+
+<h1 align="center">Aqu&iacute la Galer&iacutea, Historias de mascotas adoptadas para inspirar a Adoptar!</h1>
+<h3 align="center" >Comparte tus historias y fotos a <b>edwinrod0624@gmail.com</b> </h3>
+<hr>
+
+
+<p><h1 align="center">A continuaci&oacuten mi experiencia con la adopci&oacuten y c&oacutemo 
+se me dieron las oportunidades.</h1> <h4 align="center">Si desea ver las im&aacutegenes
+en mayor detalle puede hacer "click" en ellas</h4>
+</br></p>
+
+
+<!--Llamando la galeria-->
+	</br></br></br></br><div class="gallery">
+  <a target="_blank" href="sissy.jpg">
+    <img src="sissy.jpg" alt="Sissy" width="30" height="20" border="5px">
+  </a>
+  
+  <!--Descripcion de la primera imagen-->
+  <div class="desc"><h2>Sissy<hr></h2>Esta es <b>Sissy</b>, es una 
+  satita de mezcla <i>Chihuahua</i> y <i>Daschund</i>. Es 
+una perrita sumamente tranquila y le encanta de-ma-sia-do viajar 
+y pasear a donde sea que la llevemos! Hace ya m&aacutes de <b>10 a&ntildeos </b><b> la a
+  dopt&oacute mi familia en Salinas, PR</b>. El haberla adoptado de seguro le 
+  ha salvado la vida, ya que cuando peque&ntildea descubrimos que 
+  aun no habia sido desparasitada, algo que para cualquier perro, grande o 
+  chiquito, presenta un grand&iacutesimo riesgo a su salud, sin mencionar
+  el penoso hecho de que a eso de sus 7 a&ntildeos de edad <b>ya sus 
+  hermanos todos hab&iacutean muerto</b> 
+  por diversas razones de salud. No hace falta decir que Sissy vive feliz ahora ya con casi 11 a&ntildeos 
+  de vida recibiendo constante amor y buen cuidado aqu&iacute en Ponce, PR!
+  
+   <p align="center"><b>Sus Actividades Favoritas Son:</p>
+  <ul><h3>
+	<li>Dormir</li>
+	<li>Pasear</li>
+	<li>Ver Televisi&oacuten conmigo</li>
+	<li>Acostarse a cojer Sol</li></h3>
+	</div>
+  </div>
+ 
+	
+
+<hr>
+<p></br></p>
+
+<!--Segunda foto y descripcion-->
+<div class="gallery">
+  <a target="_blank" href="drogon.jpg">
+    <img src="drogon.jpg" alt="Drogon" width="30" height="20" border="5px">
+  </a>
+  <div class="desc">
+  <h2>Drogon<hr></h2>
+  
+  El gran Drogon! Este chico 
+es un cruce de <i>Greyhound (racing dog)</i> y <i>Pitbull</i>. Dem&aacutes 
+est&aacute decir que es un perro veloz <i>(por parte del Greyhound)</i> y muy, muy fuerte <i>(por parte de 
+su lado pitbull)</i> Pero si algo &eacutel nos ha dejado claro, es que
+es un perro extremadamente fiel, atl&eacutetico y amoroso con 
+nosotros. Con s&oacutelo 1 a&ntildeo reci&eacuten cumplido tiene una 
+  historia un tanto c&oacutemica, cr&eacuteanlo o no. Drogon lleg&oacute por 
+medio de una broma mi novia, Jeannerie se tom&oacute en serio. Ella me llam&oacute diciendo que hab&iacutea visto
+unos perritos en una caja en su universidad y me pregunt&oacute si podr&iacute cuidar uno en mi casa, yo
+naturalmente lo tome como broma y le dije que s&iacute (sin saber que ella no bromeba) y as&iacute lleg&oacute aquel cachorro a casa.
+ Y sinceramente, estoy agradecido infinitamente que Jeannerie se tomo en serio mi chiste que result&oacuet
+en la llegada de Drogon a mi vida. Cuando lleg&oacute solo pes&oacute
+8lbs y ahora ya son 45lbs de puro m&uacutesculo a solo un a&ntildeo con 
+nosotros! A ver que mas nos espera en el tiempo por venir.
+
+<p align="center"><b>Sus Actividades Favoritas Son:</p>
+  <ul><h3>
+  <li>Correr a 35mph</li>
+  <li>Excavar y guardar sus juguetes en agujeros</li>
+  <li>Nadar y nadar en la playa</li>
+  <li>Practicar sus trucos de obediencia</br></br></br></br></br></br></li>
+  </ul></h3>
+  </div>
+</div>
+
+<!--El menu bar (haciendo llamado a setting arriba en CSS)-->
+	 <div class="topnav" id="myTopnav">
+  <a href="file:///C:/Users/Edwin/Desktop/PF/Home">Hogar</a>
+  <a href="file:///C:/Users/Edwin/Desktop/PF/gallery">Galer&iacutea </a>
+  <a href="file:///C:/Users/Edwin/Desktop/PF/contact">Cont&aacutectanos </a>
+  <a href="file:///C:/Users/Edwin/Desktop/PF/about">Qu&eacute debes saber?</a>
+  <a href="file:///C:/Users/Edwin/Desktop/PF/adoption">Adopci&oacuten </a>
+  
+  
+  
+</div>
+</body>
+</html>
